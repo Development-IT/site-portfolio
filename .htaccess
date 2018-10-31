@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^v.working-site\.ru$ [NC]
+RewriteRule ^(.*)$ http://v.working-site.ru/$1 [R=301,L]
